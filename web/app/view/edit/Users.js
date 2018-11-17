@@ -101,7 +101,7 @@ Ext.define('Traccar.view.edit.Users', {
             handler: 'onMaintenancesClick',
             reference: 'userMaintenancesButton',
             glyph: 'xf0ad@FontAwesome',
-            tooltip: Strings.sharedMaintenance,
+            tooltip: Strings.sharedMaintenances,
             tooltipType: 'title'
         }]
     },

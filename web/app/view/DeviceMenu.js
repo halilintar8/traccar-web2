@@ -57,7 +57,7 @@ Ext.define('Traccar.view.DeviceMenu', {
             handler: 'onCommandsClick',
             reference: 'menuCommandsButton'
         }, {
-            text: Strings.sharedMaintenance,
+            text: Strings.sharedMaintenances,
             glyph: 'xf0ad@FontAwesome',
             handler: 'onMaintenancesClick',
             reference: 'menuMaintenancesButton'

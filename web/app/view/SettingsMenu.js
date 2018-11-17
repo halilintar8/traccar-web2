@@ -98,7 +98,7 @@ Ext.define('Traccar.view.SettingsMenu', {
             reference: 'settingsCommandsButton'
         }, {
             hidden: true,
-            text: Strings.sharedMaintenance,
+            text: Strings.sharedMaintenances,
             glyph: 'xf0ad@FontAwesome',
             handler: 'onMaintenancesClick',
             reference: 'settingsMaintenancesButton'

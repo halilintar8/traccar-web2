@@ -28,12 +28,6 @@ Ext.define('Traccar.view.dialog.ComputedAttribute', {
 
     items: {
         xtype: 'form',
-        listeners: {
-            afterrender: function (view) {
-                var field = view.up('panel').lookupReference('expressionField');
-                field.setValue(Ext.String.htmlDecode(field.getValue()));
-            }
-        },
         items: [{
             xtype: 'textfield',
             name: 'description',
@@ -50,7 +44,6 @@ Ext.define('Traccar.view.dialog.ComputedAttribute', {
             }
         }, {
             xtype: 'textareafield',
-            reference: 'expressionField',
             name: 'expression',
             fieldLabel: Strings.sharedExpression,
             allowBlank: false
